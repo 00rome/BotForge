@@ -1,0 +1,5 @@
+max-bots-per-world: 8
+ai-update-ticks: 4
+wander-radius: 10
+follow-distance: 3.0
+bot-prefix: ""

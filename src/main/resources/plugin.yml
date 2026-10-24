@@ -1,0 +1,14 @@
+name: BotForge
+version: 0.1.0
+main: dev.rome.botforge.BotForgePlugin
+api-version: '1.21'
+description: Standalone experimental fake-player bot system. No Citizens dependency.
+author: Rome
+commands:
+  botforge:
+    description: Manage BotForge bots
+    usage: /botforge <spawn|remove|list|follow|wander|stop>
+    aliases: [bf]
+permissions:
+  botforge.admin:
+    default: op
